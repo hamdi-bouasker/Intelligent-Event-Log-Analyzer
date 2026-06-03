@@ -33,7 +33,7 @@ Permissions: Administrator privileges are required to read Event Logs and execut
 1. Clone the repository:
 
 Bash
-git clone https://github.com/hamdi-bouasker/sre-auto-healer.git
+git clone https://github.com/hamdi-bouasker/Intelligent-Event-Log-Analyzer.git
 cd sre-auto-healer
 2. Install dependencies:
 
