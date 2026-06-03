@@ -1,7 +1,7 @@
 ### Intelligent-Event-Log-Analyzer
 An enterprise-grade, closed-loop automation system for Windows Server environments. This project integrates PowerShell event monitoring with a Python-based AI middleware (powered by Google's Gemini API) to proactively detect system anomalies, triage root causes, and safely execute self-healing remediation workflows.
 
-#🚀 Features
+🚀 #Features
 Proactive Anomaly Detection: Utilizes a lightweight PowerShell listener to filter noisy Windows Event Logs, capturing only critical system and application errors in near real-time.
 
 AI-Powered Triage: Integrates with the Gemini 1.5 Pro API using strict JSON schema enforcement to analyze log data and diagnose infrastructure failures without hallucination.
@@ -12,7 +12,7 @@ Zero-Trust Execution Model: The AI does not have open terminal access. All remed
 
 Audit-Ready Logging: Maintains comprehensive local logs of all AI decisions, unauthorized command attempts, and successful remediations for SRE review.
 
-#🏗️ Architecture
+🏗️ # Architecture
 The system is built on a decoupled, event-driven architecture:
 
 Data Collection (PowerShell): Collect-EventLogs.ps1 runs via Windows Task Scheduler. It queries the System and Application event logs for Level 1 (Critical) and Level 2 (Error) events, sanitizes the data, and writes it to a local JSON queue.
