@@ -73,6 +73,3 @@ Execution Allowlist: The AI cannot generate arbitrary code. It can only request 
 Hamdi Bouasker
 
 Senior IT Support Engineer & Automation Specialist
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
