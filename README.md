@@ -33,17 +33,17 @@ Permissions: Administrator privileges are required to read Event Logs and execut
 1. Clone the repository:
 
 Bash
-git clone https://github.com/hamdi-bouasker/Intelligent-Event-Log-Analyzer.git
-cd sre-auto-healer
+```git clone https://github.com/hamdi-bouasker/Intelligent-Event-Log-Analyzer.git
+cd sre-auto-healer```
 2. Install dependencies:
 
 Bash
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 3. Configure the environment:
 Set your Gemini API key as a system environment variable.
 
 PowerShell
-[System.Environment]::SetEnvironmentVariable('GEMINI_API_KEY', 'your_api_key_here', [System.EnvironmentVariableTarget]::Machine)
+```[System.Environment]::SetEnvironmentVariable('GEMINI_API_KEY', 'your_api_key_here', [System.EnvironmentVariableTarget]::Machine)```
 4. Set up the Directory Structure:
 Ensure the script paths match your environment. By default, the scripts expect the following structure:
 
