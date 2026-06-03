@@ -62,7 +62,7 @@ C:\SRE_Agent\logs\ (For the agent action logs)
 #### 5. Schedule the Event Listener:
 Open Windows Task Scheduler and create a new basic task to run Collect-EventLogs.ps1 every 5 minutes with the highest privileges.
 
-#### Security & Compliance Note 🔒
+### Security & Compliance Note 🔒
 This tool is designed with Site Reliability Engineering (SRE) best practices in mind:
 
 No PII Leakage: The PowerShell extraction phase filters out raw event payloads, sending only structured metadata (Event ID, Provider, standard error messages) to the LLM.
